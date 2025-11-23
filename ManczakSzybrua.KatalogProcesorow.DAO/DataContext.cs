@@ -1,7 +1,7 @@
 ﻿using ManczakSzybrua.KatalogProcesorow.DAO;
 using Microsoft.EntityFrameworkCore;
 
-namespace ManczakSzybura.KatalogProduktów.DAO
+namespace ManczakSzybrua.KatalogProcesorow.DAO
 {
     public class DataContext : DbContext
     {
@@ -10,7 +10,7 @@ namespace ManczakSzybura.KatalogProduktów.DAO
             optionsBuilder.UseSqlite("Data source = models.db");
         }
 
-        public virtual DbSet<ManufacturerDo> Manufacturers { get; set; }
+        public virtual DbSet<ManufacturerDO> Manufacturers { get; set; }
         public virtual DbSet<CPU_DO> Cpus { get; set; }
 
 

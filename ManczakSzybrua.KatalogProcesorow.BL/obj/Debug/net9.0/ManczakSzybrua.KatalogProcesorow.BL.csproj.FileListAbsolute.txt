@@ -1,0 +1,11 @@
+D:\PROGRAMING\KatalogCPU\ManczakSzybura.KatalogProcesorow\ManczakSzybrua.KatalogProcesorow.BL\bin\Debug\net9.0\ManczakSzybrua.KatalogProcesorow.BL.deps.json
+D:\PROGRAMING\KatalogCPU\ManczakSzybura.KatalogProcesorow\ManczakSzybrua.KatalogProcesorow.BL\bin\Debug\net9.0\ManczakSzybrua.KatalogProcesorow.BL.dll
+D:\PROGRAMING\KatalogCPU\ManczakSzybura.KatalogProcesorow\ManczakSzybrua.KatalogProcesorow.BL\bin\Debug\net9.0\ManczakSzybrua.KatalogProcesorow.BL.pdb
+D:\PROGRAMING\KatalogCPU\ManczakSzybura.KatalogProcesorow\ManczakSzybrua.KatalogProcesorow.BL\obj\Debug\net9.0\ManczakSzybrua.KatalogProcesorow.BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROGRAMING\KatalogCPU\ManczakSzybura.KatalogProcesorow\ManczakSzybrua.KatalogProcesorow.BL\obj\Debug\net9.0\ManczakSzybrua.KatalogProcesorow.BL.AssemblyInfoInputs.cache
+D:\PROGRAMING\KatalogCPU\ManczakSzybura.KatalogProcesorow\ManczakSzybrua.KatalogProcesorow.BL\obj\Debug\net9.0\ManczakSzybrua.KatalogProcesorow.BL.AssemblyInfo.cs
+D:\PROGRAMING\KatalogCPU\ManczakSzybura.KatalogProcesorow\ManczakSzybrua.KatalogProcesorow.BL\obj\Debug\net9.0\ManczakSzybrua.KatalogProcesorow.BL.csproj.CoreCompileInputs.cache
+D:\PROGRAMING\KatalogCPU\ManczakSzybura.KatalogProcesorow\ManczakSzybrua.KatalogProcesorow.BL\obj\Debug\net9.0\ManczakSzybrua.KatalogProcesorow.BL.dll
+D:\PROGRAMING\KatalogCPU\ManczakSzybura.KatalogProcesorow\ManczakSzybrua.KatalogProcesorow.BL\obj\Debug\net9.0\refint\ManczakSzybrua.KatalogProcesorow.BL.dll
+D:\PROGRAMING\KatalogCPU\ManczakSzybura.KatalogProcesorow\ManczakSzybrua.KatalogProcesorow.BL\obj\Debug\net9.0\ManczakSzybrua.KatalogProcesorow.BL.pdb
+D:\PROGRAMING\KatalogCPU\ManczakSzybura.KatalogProcesorow\ManczakSzybrua.KatalogProcesorow.BL\obj\Debug\net9.0\ref\ManczakSzybrua.KatalogProcesorow.BL.dll

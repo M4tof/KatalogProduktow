@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ManczakSzybrua.KatalogProcesorow.DAO
 {
-    public class ManufacturerDo : IManufacturer
+    public class ManufacturerDO : IManufacturer
     {
         public int Id { get; set; }
         public string Name { get; set; }

@@ -6,4 +6,5 @@
   <Project Path="ManczakSzybrua.KatalogProcesorow.UI/ManczakSzybrua.KatalogProcesorow.UI.csproj">
     <Deploy Solution="Debug|*" />
   </Project>
+  <Project Path="textEnv/textEnv.csproj" />
 </Solution>
