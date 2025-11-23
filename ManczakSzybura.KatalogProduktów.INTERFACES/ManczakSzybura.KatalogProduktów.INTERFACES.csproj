@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>MańczakSzybura.KatalogProduktów.INTERFACES</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ManczakSzybura.KatalogProduktów.CORE\ManczakSzybura.KatalogProduktów.CORE.csproj" />
+  </ItemGroup>
+
+</Project>
