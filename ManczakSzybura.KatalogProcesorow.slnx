@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="ManczakSzybrua.KatalogProcesorow.BL/ManczakSzybrua.KatalogProcesorow.BL.csproj" />
+  <Project Path="ManczakSzybrua.KatalogProcesorow.CORE/ManczakSzybrua.KatalogProcesorow.CORE.csproj" />
+  <Project Path="ManczakSzybrua.KatalogProcesorow.DAO/ManczakSzybrua.KatalogProcesorow.DAO.csproj" />
+  <Project Path="ManczakSzybrua.KatalogProcesorow.INTERFACES/ManczakSzybrua.KatalogProcesorow.INTERFACES.csproj" />
+  <Project Path="ManczakSzybrua.KatalogProcesorow.UI/ManczakSzybrua.KatalogProcesorow.UI.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>

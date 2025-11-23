@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PROGRAMING\\KatalogProduktow\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32C8483A-D6D1-4F87-A790-D09BBF403063}|ManczakSzybura.KatalogProdukt\u00F3w.DAO\\ManczakSzybura.KatalogProduktow.DAO.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprodukt\u00F3w.dao\\cpu_do.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C8483A-D6D1-4F87-A790-D09BBF403063}|ManczakSzybura.KatalogProdukt\u00F3w.DAO\\ManczakSzybura.KatalogProduktow.DAO.csproj|solutionrelative:manczakszybura.katalogprodukt\u00F3w.dao\\cpu_do.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C8483A-D6D1-4F87-A790-D09BBF403063}|ManczakSzybura.KatalogProdukt\u00F3w.DAO\\ManczakSzybura.KatalogProduktow.DAO.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprodukt\u00F3w.dao\\manczakszybura.katalogproduktow.dao.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{32C8483A-D6D1-4F87-A790-D09BBF403063}|ManczakSzybura.KatalogProdukt\u00F3w.DAO\\ManczakSzybura.KatalogProduktow.DAO.csproj|solutionrelative:manczakszybura.katalogprodukt\u00F3w.dao\\manczakszybura.katalogproduktow.dao.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47B6E6DE-6948-4F62-80FA-8A69ECB4E6DD}|ManczakSzybura.KatalogProdukt\u00F3w.INTERFACES\\ManczakSzybura.KatalogProduktow.INTERFACES.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprodukt\u00F3w.interfaces\\icpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47B6E6DE-6948-4F62-80FA-8A69ECB4E6DD}|ManczakSzybura.KatalogProdukt\u00F3w.INTERFACES\\ManczakSzybura.KatalogProduktow.INTERFACES.csproj|solutionrelative:manczakszybura.katalogprodukt\u00F3w.interfaces\\icpu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADC1081-691C-4299-9F52-C70E2F768780}|ManczakSzybura.KatalogProdukt\u00F3w.CORE\\ManczakSzybura.KatalogProduktow.CORE.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprodukt\u00F3w.core\\sockettype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADC1081-691C-4299-9F52-C70E2F768780}|ManczakSzybura.KatalogProdukt\u00F3w.CORE\\ManczakSzybura.KatalogProduktow.CORE.csproj|solutionrelative:manczakszybura.katalogprodukt\u00F3w.core\\sockettype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADC1081-691C-4299-9F52-C70E2F768780}|ManczakSzybura.KatalogProdukt\u00F3w.CORE\\ManczakSzybura.KatalogProduktow.CORE.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprodukt\u00F3w.core\\manczakszybura.katalogproduktow.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4ADC1081-691C-4299-9F52-C70E2F768780}|ManczakSzybura.KatalogProdukt\u00F3w.CORE\\ManczakSzybura.KatalogProduktow.CORE.csproj|solutionrelative:manczakszybura.katalogprodukt\u00F3w.core\\manczakszybura.katalogproduktow.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47B6E6DE-6948-4F62-80FA-8A69ECB4E6DD}|ManczakSzybura.KatalogProdukt\u00F3w.INTERFACES\\ManczakSzybura.KatalogProduktow.INTERFACES.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprodukt\u00F3w.interfaces\\manczakszybura.katalogproduktow.interfaces.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{47B6E6DE-6948-4F62-80FA-8A69ECB4E6DD}|ManczakSzybura.KatalogProdukt\u00F3w.INTERFACES\\ManczakSzybura.KatalogProduktow.INTERFACES.csproj|solutionrelative:manczakszybura.katalogprodukt\u00F3w.interfaces\\manczakszybura.katalogproduktow.interfaces.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47B6E6DE-6948-4F62-80FA-8A69ECB4E6DD}|ManczakSzybura.KatalogProdukt\u00F3w.INTERFACES\\ManczakSzybura.KatalogProduktow.INTERFACES.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprodukt\u00F3w.interfaces\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47B6E6DE-6948-4F62-80FA-8A69ECB4E6DD}|ManczakSzybura.KatalogProdukt\u00F3w.INTERFACES\\ManczakSzybura.KatalogProduktow.INTERFACES.csproj|solutionrelative:manczakszybura.katalogprodukt\u00F3w.interfaces\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47B6E6DE-6948-4F62-80FA-8A69ECB4E6DD}|ManczakSzybura.KatalogProdukt\u00F3w.INTERFACES\\ManczakSzybura.KatalogProduktow.INTERFACES.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprodukt\u00F3w.interfaces\\imanufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47B6E6DE-6948-4F62-80FA-8A69ECB4E6DD}|ManczakSzybura.KatalogProdukt\u00F3w.INTERFACES\\ManczakSzybura.KatalogProduktow.INTERFACES.csproj|solutionrelative:manczakszybura.katalogprodukt\u00F3w.interfaces\\imanufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9575F751-9214-45C7-8048-89AE78A1BEA3}|ManczakSzybura.KatalogProdukt\u00F3w.BL\\ManczakSzybura.KatalogProduktow.BL.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprodukt\u00F3w.bl\\blmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9575F751-9214-45C7-8048-89AE78A1BEA3}|ManczakSzybura.KatalogProdukt\u00F3w.BL\\ManczakSzybura.KatalogProduktow.BL.csproj|solutionrelative:manczakszybura.katalogprodukt\u00F3w.bl\\blmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9575F751-9214-45C7-8048-89AE78A1BEA3}|ManczakSzybura.KatalogProdukt\u00F3w.BL\\ManczakSzybura.KatalogProduktow.BL.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprodukt\u00F3w.bl\\manczakszybura.katalogproduktow.bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9575F751-9214-45C7-8048-89AE78A1BEA3}|ManczakSzybura.KatalogProdukt\u00F3w.BL\\ManczakSzybura.KatalogProduktow.BL.csproj|solutionrelative:manczakszybura.katalogprodukt\u00F3w.bl\\manczakszybura.katalogproduktow.bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CPU_DO.cs",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProdukt\u00F3w.DAO\\CPU_DO.cs",
+              "RelativeDocumentMoniker": "ManczakSzybura.KatalogProdukt\u00F3w.DAO\\CPU_DO.cs",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProdukt\u00F3w.DAO\\CPU_DO.cs",
+              "RelativeToolTip": "ManczakSzybura.KatalogProdukt\u00F3w.DAO\\CPU_DO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T14:27:11.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManczakSzybura.KatalogProdukt\u00F3w.DAO",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProdukt\u00F3w.DAO\\ManczakSzybura.KatalogProduktow.DAO.csproj",
+              "RelativeDocumentMoniker": "ManczakSzybura.KatalogProdukt\u00F3w.DAO\\ManczakSzybura.KatalogProduktow.DAO.csproj",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProdukt\u00F3w.DAO\\ManczakSzybura.KatalogProduktow.DAO.csproj",
+              "RelativeToolTip": "ManczakSzybura.KatalogProdukt\u00F3w.DAO\\ManczakSzybura.KatalogProduktow.DAO.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-23T14:26:57.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SocketType.cs",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProdukt\u00F3w.CORE\\SocketType.cs",
+              "RelativeDocumentMoniker": "ManczakSzybura.KatalogProdukt\u00F3w.CORE\\SocketType.cs",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProdukt\u00F3w.CORE\\SocketType.cs",
+              "RelativeToolTip": "ManczakSzybura.KatalogProdukt\u00F3w.CORE\\SocketType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T14:26:41.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManczakSzybura.KatalogProduktow.INTERFACES",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProdukt\u00F3w.INTERFACES\\ManczakSzybura.KatalogProduktow.INTERFACES.csproj",
+              "RelativeDocumentMoniker": "ManczakSzybura.KatalogProdukt\u00F3w.INTERFACES\\ManczakSzybura.KatalogProduktow.INTERFACES.csproj",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProdukt\u00F3w.INTERFACES\\ManczakSzybura.KatalogProduktow.INTERFACES.csproj",
+              "RelativeToolTip": "ManczakSzybura.KatalogProdukt\u00F3w.INTERFACES\\ManczakSzybura.KatalogProduktow.INTERFACES.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-23T14:26:24.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ManczakSzybura.KatalogProduktow.CORE.csproj",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProdukt\u00F3w.CORE\\ManczakSzybura.KatalogProduktow.CORE.csproj",
+              "RelativeDocumentMoniker": "ManczakSzybura.KatalogProdukt\u00F3w.CORE\\ManczakSzybura.KatalogProduktow.CORE.csproj",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProdukt\u00F3w.CORE\\ManczakSzybura.KatalogProduktow.CORE.csproj",
+              "RelativeToolTip": "ManczakSzybura.KatalogProdukt\u00F3w.CORE\\ManczakSzybura.KatalogProduktow.CORE.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-23T14:26:33.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IProduct.cs",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProdukt\u00F3w.INTERFACES\\IProduct.cs",
+              "RelativeDocumentMoniker": "ManczakSzybura.KatalogProdukt\u00F3w.INTERFACES\\IProduct.cs",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProdukt\u00F3w.INTERFACES\\IProduct.cs",
+              "RelativeToolTip": "ManczakSzybura.KatalogProdukt\u00F3w.INTERFACES\\IProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T14:26:28.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BLMain.cs",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProdukt\u00F3w.BL\\BLMain.cs",
+              "RelativeDocumentMoniker": "ManczakSzybura.KatalogProdukt\u00F3w.BL\\BLMain.cs",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProdukt\u00F3w.BL\\BLMain.cs",
+              "RelativeToolTip": "ManczakSzybura.KatalogProdukt\u00F3w.BL\\BLMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T14:26:07.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ManczakSzybura.KatalogProdukt\u00F3w.BL",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProdukt\u00F3w.BL\\ManczakSzybura.KatalogProduktow.BL.csproj",
+              "RelativeDocumentMoniker": "ManczakSzybura.KatalogProdukt\u00F3w.BL\\ManczakSzybura.KatalogProduktow.BL.csproj",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProdukt\u00F3w.BL\\ManczakSzybura.KatalogProduktow.BL.csproj",
+              "RelativeToolTip": "ManczakSzybura.KatalogProdukt\u00F3w.BL\\ManczakSzybura.KatalogProduktow.BL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-23T14:25:44.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IManufacturer.cs",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProdukt\u00F3w.INTERFACES\\IManufacturer.cs",
+              "RelativeDocumentMoniker": "ManczakSzybura.KatalogProdukt\u00F3w.INTERFACES\\IManufacturer.cs",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProdukt\u00F3w.INTERFACES\\IManufacturer.cs",
+              "RelativeToolTip": "ManczakSzybura.KatalogProdukt\u00F3w.INTERFACES\\IManufacturer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T14:25:42.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICPU.cs",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProdukt\u00F3w.INTERFACES\\ICPU.cs",
+              "RelativeDocumentMoniker": "ManczakSzybura.KatalogProdukt\u00F3w.INTERFACES\\ICPU.cs",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProdukt\u00F3w.INTERFACES\\ICPU.cs",
+              "RelativeToolTip": "ManczakSzybura.KatalogProdukt\u00F3w.INTERFACES\\ICPU.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T14:25:38.683Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
