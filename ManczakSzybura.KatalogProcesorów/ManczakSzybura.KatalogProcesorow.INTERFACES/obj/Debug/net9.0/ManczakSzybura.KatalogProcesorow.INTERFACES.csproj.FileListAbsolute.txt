@@ -1,0 +1,15 @@
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.INTERFACES\bin\Debug\net9.0\ManczakSzybura.KatalogProcesorow.INTERFACES.deps.json
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.INTERFACES\bin\Debug\net9.0\ManczakSzybura.KatalogProcesorow.INTERFACES.dll
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.INTERFACES\bin\Debug\net9.0\ManczakSzybura.KatalogProcesorow.INTERFACES.pdb
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.INTERFACES\bin\Debug\net9.0\ManczakSzybura.KatalogProcesorow.CORE.dll
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.INTERFACES\bin\Debug\net9.0\ManczakSzybura.KatalogProcesorow.CORE.pdb
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.INTERFACES\obj\Debug\net9.0\ManczakSzybura.KatalogProcesorow.INTERFACES.csproj.AssemblyReference.cache
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.INTERFACES\obj\Debug\net9.0\ManczakSzybura.KatalogProcesorow.INTERFACES.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.INTERFACES\obj\Debug\net9.0\ManczakSzybura.KatalogProcesorow.INTERFACES.AssemblyInfoInputs.cache
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.INTERFACES\obj\Debug\net9.0\ManczakSzybura.KatalogProcesorow.INTERFACES.AssemblyInfo.cs
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.INTERFACES\obj\Debug\net9.0\ManczakSzybura.KatalogProcesorow.INTERFACES.csproj.CoreCompileInputs.cache
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.INTERFACES\obj\Debug\net9.0\ManczakS.6903951C.Up2Date
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.INTERFACES\obj\Debug\net9.0\ManczakSzybura.KatalogProcesorow.INTERFACES.dll
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.INTERFACES\obj\Debug\net9.0\refint\ManczakSzybura.KatalogProcesorow.INTERFACES.dll
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.INTERFACES\obj\Debug\net9.0\ManczakSzybura.KatalogProcesorow.INTERFACES.pdb
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.INTERFACES\obj\Debug\net9.0\ref\ManczakSzybura.KatalogProcesorow.INTERFACES.dll

@@ -1,0 +1,17 @@
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.DBFile\bin\Debug\net9.0\ManczakSzybura.KatalogProcesorow.DBFile.deps.json
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.DBFile\bin\Debug\net9.0\ManczakSzybura.KatalogProcesorow.DBFile.dll
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.DBFile\bin\Debug\net9.0\ManczakSzybura.KatalogProcesorow.DBFile.pdb
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.DBFile\bin\Debug\net9.0\ManczakSzybura.KatalogProcesorow.CORE.dll
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.DBFile\bin\Debug\net9.0\ManczakSzybura.KatalogProcesorow.INTERFACES.dll
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.DBFile\bin\Debug\net9.0\ManczakSzybura.KatalogProcesorow.CORE.pdb
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.DBFile\bin\Debug\net9.0\ManczakSzybura.KatalogProcesorow.INTERFACES.pdb
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.DBFile\obj\Debug\net9.0\ManczakSzybura.KatalogProcesorow.DBFile.csproj.AssemblyReference.cache
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.DBFile\obj\Debug\net9.0\ManczakSzybura.KatalogProcesorow.DBFile.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.DBFile\obj\Debug\net9.0\ManczakSzybura.KatalogProcesorow.DBFile.AssemblyInfoInputs.cache
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.DBFile\obj\Debug\net9.0\ManczakSzybura.KatalogProcesorow.DBFile.AssemblyInfo.cs
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.DBFile\obj\Debug\net9.0\ManczakSzybura.KatalogProcesorow.DBFile.csproj.CoreCompileInputs.cache
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.DBFile\obj\Debug\net9.0\ManczakS.12080924.Up2Date
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.DBFile\obj\Debug\net9.0\ManczakSzybura.KatalogProcesorow.DBFile.dll
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.DBFile\obj\Debug\net9.0\refint\ManczakSzybura.KatalogProcesorow.DBFile.dll
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.DBFile\obj\Debug\net9.0\ManczakSzybura.KatalogProcesorow.DBFile.pdb
+D:\PROGRAMING\FINALFINALFRFR\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.DBFile\obj\Debug\net9.0\ref\ManczakSzybura.KatalogProcesorow.DBFile.dll

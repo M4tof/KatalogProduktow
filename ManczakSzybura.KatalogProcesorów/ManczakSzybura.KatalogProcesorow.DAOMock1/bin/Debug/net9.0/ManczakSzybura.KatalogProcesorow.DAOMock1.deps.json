@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ManczakSzybura.KatalogProcesorow.DAOMock1/1.0.0": {
+        "dependencies": {
+          "ManczakSzybura.KatalogProcesorow.CORE": "1.0.0",
+          "ManczakSzybura.KatalogProcesorow.INTERFACES": "1.0.0"
+        },
+        "runtime": {
+          "ManczakSzybura.KatalogProcesorow.DAOMock1.dll": {}
+        }
+      },
+      "ManczakSzybura.KatalogProcesorow.CORE/1.0.0": {
+        "runtime": {
+          "ManczakSzybura.KatalogProcesorow.CORE.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ManczakSzybura.KatalogProcesorow.INTERFACES/1.0.0": {
+        "dependencies": {
+          "ManczakSzybura.KatalogProcesorow.CORE": "1.0.0"
+        },
+        "runtime": {
+          "ManczakSzybura.KatalogProcesorow.INTERFACES.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ManczakSzybura.KatalogProcesorow.DAOMock1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ManczakSzybura.KatalogProcesorow.CORE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ManczakSzybura.KatalogProcesorow.INTERFACES/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
