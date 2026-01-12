@@ -1,0 +1,134 @@
+﻿@model IEnumerable<ManczakSzybura.KatalogProcesorow.Interfaces.IManufacturer>
+
+@{
+    ViewData["Title"] = "Manufacturers";
+}
+
+<style>
+    body {
+        background-color: #f4f7f6;
+    }
+
+    .page-header {
+        text-align: center;
+        margin-bottom: 30px;
+        padding-top: 20px;
+        border-bottom: 2px solid #dee2e6;
+        padding-bottom: 10px;
+    }
+
+    .filter-sidebar {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    .content-card {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        overflow: hidden;
+    }
+
+    .table thead {
+        background-color: #343a40;
+        color: white;
+    }
+
+    .table th {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .table td {
+        vertical-align: middle;
+        padding: 12px;
+        text-align: center;
+    }
+
+    .footer-actions {
+        margin-top: 30px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .btn-add {
+        padding: 12px 40px;
+        font-weight: bold;
+        border-radius: 50px;
+    }
+</style>
+
+<div class="container-fluid">
+    <div class="page-header">
+        <h1>Manufacturer Directory</h1>
+    </div>
+
+    <div class="row">
+        <!-- CENTER: LIST -->
+        <div class="col-md-9 px-4">
+            <div class="content-card">
+                <table class="table table-hover mb-0">
+                    <thead>
+                        <tr>
+                            <th>Company Name</th>
+                            <th>Global Headquarters</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td class="fw-bold">@item.Name</td>
+                                <td class="text-muted">@item.Address</td>
+                                <td>
+                                    <div class="btn-group btn-group-sm">
+                                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-dark">Edit</a>
+                                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-info">Details</a>
+                                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger">Delete</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- RIGHT: FILTERS -->
+        <div class="col-md-3">
+            <div class="filter-sidebar">
+                <h5 class="mb-3 border-bottom pb-2">Filter List</h5>
+                <form asp-controller="Manufacturers" asp-action="Index" method="get">
+                    <div class="mb-3">
+                        <label class="form-label small fw-bold">Company Name</label>
+                        <input type="text" name="searchTerm" class="form-control" placeholder="Search...">
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="form-label small fw-bold">Location / Address</label>
+                        <select name="filterByAddress" class="form-select">
+                            <option value="">All Regions</option>
+                            @foreach (var address in ViewBag.UniqueAddresses)
+                            {
+                                <option value="@address">@address</option>
+                            }
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-dark w-100">Apply Filter</button>
+                    <a asp-action="Index" class="btn btn-link w-100 btn-sm mt-2">Reset</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- BOTTOM: ADD BUTTON -->
+    <div class="footer-actions">
+        <a asp-action="Create" class="btn btn-success btn-add shadow">
+            + Register New Manufacturer
+        </a>
+    </div>
+</div>

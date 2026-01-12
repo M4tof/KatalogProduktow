@@ -1,0 +1,60 @@
+﻿@model ManczakSzybura.KatalogProcesorow.Interfaces.IManufacturer
+
+@{
+    ViewData["Title"] = "Delete Manufacturer";
+}
+
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    h1 {
+        color: #dc3545;
+        justify-content: center;
+        display: flex;
+    }
+
+    .form-container {
+        max-width: 600px;
+        margin: auto;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        border-color: #dc3545;
+        width: 100%;
+    }
+
+    .back-link {
+        margin-top: 20px;
+        display: block;
+        color: #007bff;
+        text-align: center;
+    }
+</style>
+
+<h1>Confirm Deletion</h1>
+<h3 class="text-center">Warning: This action cannot be undone.</h3>
+
+<div class="form-container">
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-4">Manufacturer Name:</dt>
+        <dd class="col-sm-8">@Model.Name</dd>
+
+        <dt class="col-sm-4">Address:</dt>
+        <dd class="col-sm-8">@Model.Address</dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete Permanently" class="btn btn-danger" />
+    </form>
+
+    <a asp-action="Index" class="back-link">Cancel and Return to List</a>
+</div>

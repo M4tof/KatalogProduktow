@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Lm44VGMUCeY=",
+  "dgSpecHash": "J/xtx+HNnXU=",
   "success": true,
-  "projectFilePath": "D:\\PROGRAMING\\FINALFINALFRFR\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.csproj",
+  "projectFilePath": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\krzys\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\krzys\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

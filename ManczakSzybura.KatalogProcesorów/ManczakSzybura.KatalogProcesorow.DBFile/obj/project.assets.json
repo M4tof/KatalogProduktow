@@ -52,11 +52,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROGRAMING\\FINALFINALFRFR\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.DBFile\\ManczakSzybura.KatalogProcesorow.DBFile.csproj",
+      "projectUniqueName": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.DBFile\\ManczakSzybura.KatalogProcesorow.DBFile.csproj",
       "projectName": "ManczakSzybura.KatalogProcesorow.DBFile",
-      "projectPath": "D:\\PROGRAMING\\FINALFINALFRFR\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.DBFile\\ManczakSzybura.KatalogProcesorow.DBFile.csproj",
+      "projectPath": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.DBFile\\ManczakSzybura.KatalogProcesorow.DBFile.csproj",
       "packagesPath": "C:\\Users\\krzys\\.nuget\\packages\\",
-      "outputPath": "D:\\PROGRAMING\\FINALFINALFRFR\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.DBFile\\obj\\",
+      "outputPath": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.DBFile\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -78,11 +78,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\PROGRAMING\\FINALFINALFRFR\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.CORE\\ManczakSzybura.KatalogProcesorow.CORE.csproj": {
-              "projectPath": "D:\\PROGRAMING\\FINALFINALFRFR\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.CORE\\ManczakSzybura.KatalogProcesorow.CORE.csproj"
+            "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.CORE\\ManczakSzybura.KatalogProcesorow.CORE.csproj": {
+              "projectPath": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.CORE\\ManczakSzybura.KatalogProcesorow.CORE.csproj"
             },
-            "D:\\PROGRAMING\\FINALFINALFRFR\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.INTERFACES\\ManczakSzybura.KatalogProcesorow.INTERFACES.csproj": {
-              "projectPath": "D:\\PROGRAMING\\FINALFINALFRFR\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.INTERFACES\\ManczakSzybura.KatalogProcesorow.INTERFACES.csproj"
+            "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.INTERFACES\\ManczakSzybura.KatalogProcesorow.INTERFACES.csproj": {
+              "projectPath": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.INTERFACES\\ManczakSzybura.KatalogProcesorow.INTERFACES.csproj"
             }
           }
         }

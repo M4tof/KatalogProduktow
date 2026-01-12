@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IijlBl0giJs=",
+  "dgSpecHash": "EWIMWrDVNOE=",
   "success": true,
-  "projectFilePath": "D:\\PROGRAMING\\FINALFINALFRFR\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.UI\\ManczakSzybura.KatalogProcesorow.UI.csproj",
+  "projectFilePath": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.UI\\ManczakSzybura.KatalogProcesorow.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\krzys\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.0\\microsoft.data.sqlite.core.9.0.0.nupkg.sha512",
     "C:\\Users\\krzys\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.0\\microsoft.entityframeworkcore.9.0.0.nupkg.sha512",

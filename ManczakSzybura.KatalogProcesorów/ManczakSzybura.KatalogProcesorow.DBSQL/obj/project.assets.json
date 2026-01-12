@@ -2803,11 +2803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROGRAMING\\FINALFINALFRFR\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.DBSQL\\ManczakSzybura.KatalogProcesorow.DBSQL.csproj",
+      "projectUniqueName": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.DBSQL\\ManczakSzybura.KatalogProcesorow.DBSQL.csproj",
       "projectName": "ManczakSzybura.KatalogProcesorow.DBSQL",
-      "projectPath": "D:\\PROGRAMING\\FINALFINALFRFR\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.DBSQL\\ManczakSzybura.KatalogProcesorow.DBSQL.csproj",
+      "projectPath": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.DBSQL\\ManczakSzybura.KatalogProcesorow.DBSQL.csproj",
       "packagesPath": "C:\\Users\\krzys\\.nuget\\packages\\",
-      "outputPath": "D:\\PROGRAMING\\FINALFINALFRFR\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.DBSQL\\obj\\",
+      "outputPath": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.DBSQL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2829,8 +2829,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\PROGRAMING\\FINALFINALFRFR\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.INTERFACES\\ManczakSzybura.KatalogProcesorow.INTERFACES.csproj": {
-              "projectPath": "D:\\PROGRAMING\\FINALFINALFRFR\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.INTERFACES\\ManczakSzybura.KatalogProcesorow.INTERFACES.csproj"
+            "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.INTERFACES\\ManczakSzybura.KatalogProcesorow.INTERFACES.csproj": {
+              "projectPath": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.INTERFACES\\ManczakSzybura.KatalogProcesorow.INTERFACES.csproj"
             }
           }
         }

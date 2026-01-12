@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ManczakSzybura.KatalogProcesorow.DAOMock1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+267883f891c78ed9e7b05469b4bf749b72d071ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("ManczakSzybura.KatalogProcesorow.DAOMock1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ManczakSzybura.KatalogProcesorow.DAOMock1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

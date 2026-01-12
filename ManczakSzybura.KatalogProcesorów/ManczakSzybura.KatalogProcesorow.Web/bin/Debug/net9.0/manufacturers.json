@@ -1,0 +1,12 @@
+[
+  {
+    "Id": 1,
+    "Name": "Intel",
+    "Address": "USANOT"
+  },
+  {
+    "Id": 2,
+    "Name": "AMD",
+    "Address": "POLSZA"
+  }
+]

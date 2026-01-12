@@ -1,0 +1,91 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ManczakSzybura.KatalogProcesorow.Web
+build_property.RootNamespace = ManczakSzybura.KatalogProcesorow.Web
+build_property.ProjectDir = D:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.Web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.Web
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/PROGRAMING/KatalogProduktow/ManczakSzybura.KatalogProcesorów/ManczakSzybura.KatalogProcesorow.Web/Views/CPUs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1BVc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMING/KatalogProduktow/ManczakSzybura.KatalogProcesorów/ManczakSzybura.KatalogProcesorow.Web/Views/CPUs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1BVc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMING/KatalogProduktow/ManczakSzybura.KatalogProcesorów/ManczakSzybura.KatalogProcesorow.Web/Views/CPUs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1BVc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMING/KatalogProduktow/ManczakSzybura.KatalogProcesorów/ManczakSzybura.KatalogProcesorow.Web/Views/CPUs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1BVc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMING/KatalogProduktow/ManczakSzybura.KatalogProcesorów/ManczakSzybura.KatalogProcesorow.Web/Views/CPUs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1BVc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMING/KatalogProduktow/ManczakSzybura.KatalogProcesorów/ManczakSzybura.KatalogProcesorow.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMING/KatalogProduktow/ManczakSzybura.KatalogProcesorów/ManczakSzybura.KatalogProcesorow.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMING/KatalogProduktow/ManczakSzybura.KatalogProcesorów/ManczakSzybura.KatalogProcesorow.Web/Views/Manufacturers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudWZhY3R1cmVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMING/KatalogProduktow/ManczakSzybura.KatalogProcesorów/ManczakSzybura.KatalogProcesorow.Web/Views/Manufacturers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudWZhY3R1cmVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMING/KatalogProduktow/ManczakSzybura.KatalogProcesorów/ManczakSzybura.KatalogProcesorow.Web/Views/Manufacturers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudWZhY3R1cmVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMING/KatalogProduktow/ManczakSzybura.KatalogProcesorów/ManczakSzybura.KatalogProcesorow.Web/Views/Manufacturers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudWZhY3R1cmVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMING/KatalogProduktow/ManczakSzybura.KatalogProcesorów/ManczakSzybura.KatalogProcesorow.Web/Views/Manufacturers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudWZhY3R1cmVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMING/KatalogProduktow/ManczakSzybura.KatalogProcesorów/ManczakSzybura.KatalogProcesorow.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMING/KatalogProduktow/ManczakSzybura.KatalogProcesorów/ManczakSzybura.KatalogProcesorow.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMING/KatalogProduktow/ManczakSzybura.KatalogProcesorów/ManczakSzybura.KatalogProcesorow.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMING/KatalogProduktow/ManczakSzybura.KatalogProcesorów/ManczakSzybura.KatalogProcesorow.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMING/KatalogProduktow/ManczakSzybura.KatalogProcesorów/ManczakSzybura.KatalogProcesorow.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4o3kj0a2vo

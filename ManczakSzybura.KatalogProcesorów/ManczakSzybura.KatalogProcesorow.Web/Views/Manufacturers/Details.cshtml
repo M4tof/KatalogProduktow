@@ -1,0 +1,62 @@
+﻿@model ManczakSzybura.KatalogProcesorow.Interfaces.IManufacturer
+
+@{
+    ViewData["Title"] = "Manufacturer Details";
+}
+
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    h1 {
+        color: #000000;
+        justify-content: center;
+        display: flex;
+    }
+
+    .details-container {
+        max-width: 600px;
+        margin: auto;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+    .back-link, .edit-link {
+        margin-top: 20px;
+        display: block;
+        color: #007bff;
+        text-align: center;
+    }
+</style>
+
+<div class="details-container">
+    <h4>Manufacturer Information</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-4">Company Name</dt>
+        <dd class="col-sm-8">@Html.DisplayFor(model => model.Name)</dd>
+
+        <dt class="col-sm-4">Headquarters</dt>
+        <dd class="col-sm-8">@Html.DisplayFor(model => model.Address)</dd>
+
+        <dt class="col-sm-4">Registry ID</dt>
+        <dd class="col-sm-8">@Html.DisplayFor(model => model.Id)</dd>
+    </dl>
+</div>
+
+<div class="edit-link">
+    <a asp-action="Edit" class="btn btn-primary" asp-route-id="@Model?.Id">Edit Manufacturer</a>
+</div>
+
+<div class="back-link">
+    <a asp-action="Index">Back to List</a>
+</div>

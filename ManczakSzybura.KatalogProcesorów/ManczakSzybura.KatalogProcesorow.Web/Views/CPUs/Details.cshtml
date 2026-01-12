@@ -1,0 +1,68 @@
+﻿@model ManczakSzybura.KatalogProcesorow.Interfaces.ICPU
+
+@{
+    ViewData["Title"] = "CPU Details";
+}
+
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    .details-container {
+        max-width: 600px;
+        margin: auto;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    .details-list dt {
+        font-weight: bold;
+        color: #555;
+    }
+
+    .back-link, .edit-link {
+        margin-top: 20px;
+        display: block;
+        color: #007bff;
+        text-align: center;
+    }
+</style>
+
+<div class="details-container">
+    <h4>CPU Technical Specifications</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-4">Model Name</dt>
+        <dd class="col-sm-8">@Html.DisplayFor(model => model.Name)</dd>
+
+        <dt class="col-sm-4">Cores</dt>
+        <dd class="col-sm-8">@Html.DisplayFor(model => model.Cores)</dd>
+
+        <dt class="col-sm-4">Threads</dt>
+        <dd class="col-sm-8">@Html.DisplayFor(model => model.Threads)</dd>
+
+        <dt class="col-sm-4">Base Clock</dt>
+        <dd class="col-sm-8">@Model.BaseClockGHz GHz</dd>
+
+        <dt class="col-sm-4">Socket Type</dt>
+        <dd class="col-sm-8">@Html.DisplayFor(model => model.SocketType)</dd>
+
+        <dt class="col-sm-4">Manufacturer</dt>
+        <dd class="col-sm-8">@Html.DisplayFor(model => model.manufacturer.Name)</dd>
+
+        <dt class="col-sm-4">Manufacturer HQ</dt>
+        <dd class="col-sm-8">@Html.DisplayFor(model => model.manufacturer.Address)</dd>
+    </dl>
+</div>
+
+<div class="edit-link">
+    <a asp-action="Edit" class="btn btn-primary" asp-route-id="@Model?.Id">Edit Specifications</a>
+</div>
+
+<div class="back-link">
+    <a asp-action="Index">Back to CPU List</a>
+</div>
