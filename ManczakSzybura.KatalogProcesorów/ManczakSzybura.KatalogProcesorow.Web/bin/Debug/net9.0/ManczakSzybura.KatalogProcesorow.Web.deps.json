@@ -48,7 +48,8 @@
       },
       "Microsoft.EntityFrameworkCore.Relational/9.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "9.0.0"
+          "Microsoft.EntityFrameworkCore": "9.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.1"
         },
         "runtime": {
           "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll": {
@@ -60,6 +61,7 @@
       "Microsoft.EntityFrameworkCore.Sqlite/9.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Sqlite.Core": "9.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.1",
           "Microsoft.Extensions.DependencyModel": "9.0.0",
           "SQLitePCLRaw.bundle_e_sqlite3": "2.1.10",
           "SQLitePCLRaw.core": "2.1.10"
@@ -69,6 +71,7 @@
         "dependencies": {
           "Microsoft.Data.Sqlite.Core": "9.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "9.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.1",
           "Microsoft.Extensions.DependencyModel": "9.0.0",
           "SQLitePCLRaw.core": "2.1.10"
         },

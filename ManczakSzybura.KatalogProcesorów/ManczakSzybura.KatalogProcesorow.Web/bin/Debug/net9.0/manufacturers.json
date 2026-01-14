@@ -2,11 +2,11 @@
   {
     "Id": 1,
     "Name": "Intel",
-    "Address": "USANOT"
+    "Address": "USA California"
   },
   {
     "Id": 2,
     "Name": "AMD",
-    "Address": "POLSZA"
+    "Address": "USA kalifornia"
   }
 ]

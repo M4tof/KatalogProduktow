@@ -1,10 +1,10 @@
 [
   {
     "Id": 1,
-    "Name": "Nameasd",
+    "Name": "Ryzen 7 or some",
     "Cores": 1,
     "Threads": 1,
-    "BaseClockGHz": 0,
+    "BaseClockGHz": 12.2,
     "SocketType": 1,
     "ManufacturerId": 2
   }

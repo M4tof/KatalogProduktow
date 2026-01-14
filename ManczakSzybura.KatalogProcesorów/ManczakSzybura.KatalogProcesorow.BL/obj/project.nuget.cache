@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lapDM9u7yGE=",
+  "dgSpecHash": "T4d6acJXY+A=",
   "success": true,
-  "projectFilePath": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.BL\\ManczakSzybura.KatalogProcesorow.BL.csproj",
+  "projectFilePath": "C:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.BL\\ManczakSzybura.KatalogProcesorow.BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\krzys\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.0\\microsoft.data.sqlite.core.9.0.0.nupkg.sha512",
     "C:\\Users\\krzys\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.0\\microsoft.entityframeworkcore.9.0.0.nupkg.sha512",
@@ -28,7 +28,9 @@
     "C:\\Users\\krzys\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.10\\sqlitepclraw.provider.e_sqlite3.2.1.10.nupkg.sha512",
     "C:\\Users\\krzys\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.0\\system.configuration.configurationmanager.9.0.0.nupkg.sha512",
     "C:\\Users\\krzys\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.0\\system.diagnostics.eventlog.9.0.0.nupkg.sha512",
-    "C:\\Users\\krzys\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.0\\system.security.cryptography.protecteddata.9.0.0.nupkg.sha512"
+    "C:\\Users\\krzys\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\krzys\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.0\\system.security.cryptography.protecteddata.9.0.0.nupkg.sha512",
+    "C:\\Users\\krzys\\.nuget\\packages\\system.text.json\\9.0.0\\system.text.json.9.0.0.nupkg.sha512"
   ],
   "logs": []
 }

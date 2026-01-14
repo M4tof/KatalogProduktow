@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ManczakSzybura.KatalogProcesorow.CORE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+267883f891c78ed9e7b05469b4bf749b72d071ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecc77cc97487d2ad14be963e3852981edc11208e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ManczakSzybura.KatalogProcesorow.CORE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ManczakSzybura.KatalogProcesorow.CORE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

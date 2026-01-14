@@ -21,3 +21,15 @@ D:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.
 D:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.CORE\obj\Debug\net9.0\refint\ManczakSzybura.KatalogProcesorow.CORE.dll
 D:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.CORE\obj\Debug\net9.0\ManczakSzybura.KatalogProcesorow.CORE.pdb
 D:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.CORE\obj\Debug\net9.0\ref\ManczakSzybura.KatalogProcesorow.CORE.dll
+C:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.CORE\bin\Debug\net9.0\ManczakSzybura.KatalogProcesorow.CORE.deps.json
+C:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.CORE\bin\Debug\net9.0\ManczakSzybura.KatalogProcesorow.CORE.dll
+C:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.CORE\bin\Debug\net9.0\ManczakSzybura.KatalogProcesorow.CORE.pdb
+C:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.CORE\obj\Debug\net9.0\ManczakSzybura.KatalogProcesorow.CORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.CORE\obj\Debug\net9.0\ManczakSzybura.KatalogProcesorow.CORE.AssemblyInfoInputs.cache
+C:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.CORE\obj\Debug\net9.0\ManczakSzybura.KatalogProcesorow.CORE.AssemblyInfo.cs
+C:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.CORE\obj\Debug\net9.0\ManczakSzybura.KatalogProcesorow.CORE.csproj.CoreCompileInputs.cache
+C:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.CORE\obj\Debug\net9.0\ManczakSzybura.KatalogProcesorow.CORE.sourcelink.json
+C:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.CORE\obj\Debug\net9.0\ManczakSzybura.KatalogProcesorow.CORE.dll
+C:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.CORE\obj\Debug\net9.0\refint\ManczakSzybura.KatalogProcesorow.CORE.dll
+C:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.CORE\obj\Debug\net9.0\ManczakSzybura.KatalogProcesorow.CORE.pdb
+C:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.CORE\obj\Debug\net9.0\ref\ManczakSzybura.KatalogProcesorow.CORE.dll
