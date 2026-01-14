@@ -1,14 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\",
+  "WorkspaceRootPath": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4470F2B-42AA-4724-A63A-C4560D2B9051}|ManczakSzybura.KatalogProcesorow.UI\\ManczakSzybura.KatalogProcesorow.UI.csproj|c:\\programing\\katalogproduktow\\manczakszybura.katalogprocesor\u00F3w\\manczakszybura.katalogprocesorow.ui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{4527916A-8618-4F00-BA81-D5D624EFE512}|ManczakSzybura.KatalogProcesorow.BL\\ManczakSzybura.KatalogProcesorow.BL.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprocesor\u00F3w\\manczakszybura.katalogprocesorow.bl\\bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4527916A-8618-4F00-BA81-D5D624EFE512}|ManczakSzybura.KatalogProcesorow.BL\\ManczakSzybura.KatalogProcesorow.BL.csproj|solutionrelative:manczakszybura.katalogprocesorow.bl\\bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4470F2B-42AA-4724-A63A-C4560D2B9051}|ManczakSzybura.KatalogProcesorow.UI\\ManczakSzybura.KatalogProcesorow.UI.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprocesor\u00F3w\\manczakszybura.katalogprocesorow.ui\\viewmodels\\helpers\\manufacturermock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4470F2B-42AA-4724-A63A-C4560D2B9051}|ManczakSzybura.KatalogProcesorow.UI\\ManczakSzybura.KatalogProcesorow.UI.csproj|solutionrelative:manczakszybura.katalogprocesorow.ui\\viewmodels\\helpers\\manufacturermock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4470F2B-42AA-4724-A63A-C4560D2B9051}|ManczakSzybura.KatalogProcesorow.UI\\ManczakSzybura.KatalogProcesorow.UI.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprocesor\u00F3w\\manczakszybura.katalogprocesorow.ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4470F2B-42AA-4724-A63A-C4560D2B9051}|ManczakSzybura.KatalogProcesorow.UI\\ManczakSzybura.KatalogProcesorow.UI.csproj|solutionrelative:manczakszybura.katalogprocesorow.ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4470F2B-42AA-4724-A63A-C4560D2B9051}|ManczakSzybura.KatalogProcesorow.UI\\ManczakSzybura.KatalogProcesorow.UI.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprocesor\u00F3w\\manczakszybura.katalogprocesorow.ui\\viewmodels\\helpers\\cpumock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4470F2B-42AA-4724-A63A-C4560D2B9051}|ManczakSzybura.KatalogProcesorow.UI\\ManczakSzybura.KatalogProcesorow.UI.csproj|solutionrelative:manczakszybura.katalogprocesorow.ui\\viewmodels\\helpers\\cpumock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4470F2B-42AA-4724-A63A-C4560D2B9051}|ManczakSzybura.KatalogProcesorow.UI\\ManczakSzybura.KatalogProcesorow.UI.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprocesor\u00F3w\\manczakszybura.katalogprocesorow.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A4470F2B-42AA-4724-A63A-C4560D2B9051}|ManczakSzybura.KatalogProcesorow.UI\\ManczakSzybura.KatalogProcesorow.UI.csproj|solutionrelative:manczakszybura.katalogprocesorow.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09668934-A075-455C-8FC5-C9503934725C}|ManczakSzybura.KatalogProcesorow.Web\\ManczakSzybura.KatalogProcesorow.Web.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprocesor\u00F3w\\manczakszybura.katalogprocesorow.web\\manczakszybura.katalogprocesorow.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{09668934-A075-455C-8FC5-C9503934725C}|ManczakSzybura.KatalogProcesorow.Web\\ManczakSzybura.KatalogProcesorow.Web.csproj|solutionrelative:manczakszybura.katalogprocesorow.web\\manczakszybura.katalogprocesorow.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4470F2B-42AA-4724-A63A-C4560D2B9051}|ManczakSzybura.KatalogProcesorow.UI\\ManczakSzybura.KatalogProcesorow.UI.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprocesor\u00F3w\\manczakszybura.katalogprocesorow.ui\\manczakszybura.katalogprocesorow.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A4470F2B-42AA-4724-A63A-C4560D2B9051}|ManczakSzybura.KatalogProcesorow.UI\\ManczakSzybura.KatalogProcesorow.UI.csproj|solutionrelative:manczakszybura.katalogprocesorow.ui\\manczakszybura.katalogprocesorow.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4527916A-8618-4F00-BA81-D5D624EFE512}|ManczakSzybura.KatalogProcesorow.BL\\ManczakSzybura.KatalogProcesorow.BL.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprocesor\u00F3w\\manczakszybura.katalogprocesorow.bl\\manczakszybura.katalogprocesorow.bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4527916A-8618-4F00-BA81-D5D624EFE512}|ManczakSzybura.KatalogProcesorow.BL\\ManczakSzybura.KatalogProcesorow.BL.csproj|solutionrelative:manczakszybura.katalogprocesorow.bl\\manczakszybura.katalogprocesorow.bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4AFB3C-981A-4F86-A946-65644D42F306}|ManczakSzybura.KatalogProcesorow.DBSQL\\ManczakSzybura.KatalogProcesorow.DBSQL.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprocesor\u00F3w\\manczakszybura.katalogprocesorow.dbsql\\manczakszybura.katalogprocesorow.dbsql.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DB4AFB3C-981A-4F86-A946-65644D42F306}|ManczakSzybura.KatalogProcesorow.DBSQL\\ManczakSzybura.KatalogProcesorow.DBSQL.csproj|solutionrelative:manczakszybura.katalogprocesorow.dbsql\\manczakszybura.katalogprocesorow.dbsql.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE5D2374-CC89-4A75-8D48-DF33ACDD9618}|ManczakSzybura.KatalogProcesorow.INTERFACES\\ManczakSzybura.KatalogProcesorow.INTERFACES.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprocesor\u00F3w\\manczakszybura.katalogprocesorow.interfaces\\manczakszybura.katalogprocesorow.interfaces.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DE5D2374-CC89-4A75-8D48-DF33ACDD9618}|ManczakSzybura.KatalogProcesorow.INTERFACES\\ManczakSzybura.KatalogProcesorow.INTERFACES.csproj|solutionrelative:manczakszybura.katalogprocesorow.interfaces\\manczakszybura.katalogprocesorow.interfaces.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09668934-A075-455C-8FC5-C9503934725C}|ManczakSzybura.KatalogProcesorow.Web\\ManczakSzybura.KatalogProcesorow.Web.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprocesor\u00F3w\\manczakszybura.katalogprocesorow.web\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{09668934-A075-455C-8FC5-C9503934725C}|ManczakSzybura.KatalogProcesorow.Web\\ManczakSzybura.KatalogProcesorow.Web.csproj|solutionrelative:manczakszybura.katalogprocesorow.web\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4470F2B-42AA-4724-A63A-C4560D2B9051}|ManczakSzybura.KatalogProcesorow.UI\\ManczakSzybura.KatalogProcesorow.UI.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprocesor\u00F3w\\manczakszybura.katalogprocesorow.ui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A4470F2B-42AA-4724-A63A-C4560D2B9051}|ManczakSzybura.KatalogProcesorow.UI\\ManczakSzybura.KatalogProcesorow.UI.csproj|solutionrelative:manczakszybura.katalogprocesorow.ui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09668934-A075-455C-8FC5-C9503934725C}|ManczakSzybura.KatalogProcesorow.Web\\ManczakSzybura.KatalogProcesorow.Web.csproj|c:\\programing\\katalogproduktow\\manczakszybura.katalogprocesor\u00F3w\\manczakszybura.katalogprocesorow.web\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{09668934-A075-455C-8FC5-C9503934725C}|ManczakSzybura.KatalogProcesorow.Web\\ManczakSzybura.KatalogProcesorow.Web.csproj|solutionrelative:manczakszybura.katalogprocesorow.web\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{09668934-A075-455C-8FC5-C9503934725C}|ManczakSzybura.KatalogProcesorow.Web\\ManczakSzybura.KatalogProcesorow.Web.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprocesor\u00F3w\\manczakszybura.katalogprocesorow.web\\controllers\\manufacturerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09668934-A075-455C-8FC5-C9503934725C}|ManczakSzybura.KatalogProcesorow.Web\\ManczakSzybura.KatalogProcesorow.Web.csproj|solutionrelative:manczakszybura.katalogprocesorow.web\\controllers\\manufacturerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09668934-A075-455C-8FC5-C9503934725C}|ManczakSzybura.KatalogProcesorow.Web\\ManczakSzybura.KatalogProcesorow.Web.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprocesor\u00F3w\\manczakszybura.katalogprocesorow.web\\controllers\\cpuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09668934-A075-455C-8FC5-C9503934725C}|ManczakSzybura.KatalogProcesorow.Web\\ManczakSzybura.KatalogProcesorow.Web.csproj|solutionrelative:manczakszybura.katalogprocesorow.web\\controllers\\cpuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCEB747F-48C3-4AE5-8CE6-E67605A4FBA0}|ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.csproj|d:\\programing\\katalogproduktow\\manczakszybura.katalogprocesor\u00F3w\\manczakszybura.katalogprocesor\u00F3w\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCEB747F-48C3-4AE5-8CE6-E67605A4FBA0}|ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.csproj|solutionrelative:manczakszybura.katalogprocesor\u00F3w\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +75,196 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BL.cs",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.BL\\BL.cs",
+              "RelativeDocumentMoniker": "ManczakSzybura.KatalogProcesorow.BL\\BL.cs",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.BL\\BL.cs",
+              "RelativeToolTip": "ManczakSzybura.KatalogProcesorow.BL\\BL.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwEoAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T17:42:23.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManufacturerMock.cs",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.UI\\ViewModels\\Helpers\\ManufacturerMock.cs",
+              "RelativeDocumentMoniker": "ManczakSzybura.KatalogProcesorow.UI\\ViewModels\\Helpers\\ManufacturerMock.cs",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.UI\\ViewModels\\Helpers\\ManufacturerMock.cs",
+              "RelativeToolTip": "ManczakSzybura.KatalogProcesorow.UI\\ViewModels\\Helpers\\ManufacturerMock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T17:38:45.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CPUMock.cs",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.UI\\ViewModels\\Helpers\\CPUMock.cs",
+              "RelativeDocumentMoniker": "ManczakSzybura.KatalogProcesorow.UI\\ViewModels\\Helpers\\CPUMock.cs",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.UI\\ViewModels\\Helpers\\CPUMock.cs",
+              "RelativeToolTip": "ManczakSzybura.KatalogProcesorow.UI\\ViewModels\\Helpers\\CPUMock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T17:38:22.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.UI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ManczakSzybura.KatalogProcesorow.UI\\MainWindow.xaml",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.UI\\MainWindow.xaml",
+              "RelativeToolTip": "ManczakSzybura.KatalogProcesorow.UI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-14T17:37:09.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManczakSzybura.KatalogProcesorow.Web",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.Web\\ManczakSzybura.KatalogProcesorow.Web.csproj",
+              "RelativeDocumentMoniker": "ManczakSzybura.KatalogProcesorow.Web\\ManczakSzybura.KatalogProcesorow.Web.csproj",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.Web\\ManczakSzybura.KatalogProcesorow.Web.csproj",
+              "RelativeToolTip": "ManczakSzybura.KatalogProcesorow.Web\\ManczakSzybura.KatalogProcesorow.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-14T17:30:35.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ManczakSzybura.KatalogProcesorow.DBSQL",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.DBSQL\\ManczakSzybura.KatalogProcesorow.DBSQL.csproj",
+              "RelativeDocumentMoniker": "ManczakSzybura.KatalogProcesorow.DBSQL\\ManczakSzybura.KatalogProcesorow.DBSQL.csproj",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.DBSQL\\ManczakSzybura.KatalogProcesorow.DBSQL.csproj",
+              "RelativeToolTip": "ManczakSzybura.KatalogProcesorow.DBSQL\\ManczakSzybura.KatalogProcesorow.DBSQL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-14T17:30:21.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ManczakSzybura.KatalogProcesorow.INTERFACES",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.INTERFACES\\ManczakSzybura.KatalogProcesorow.INTERFACES.csproj",
+              "RelativeDocumentMoniker": "ManczakSzybura.KatalogProcesorow.INTERFACES\\ManczakSzybura.KatalogProcesorow.INTERFACES.csproj",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.INTERFACES\\ManczakSzybura.KatalogProcesorow.INTERFACES.csproj",
+              "RelativeToolTip": "ManczakSzybura.KatalogProcesorow.INTERFACES\\ManczakSzybura.KatalogProcesorow.INTERFACES.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-14T17:30:17.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ManczakSzybura.KatalogProcesorow.UI",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.UI\\ManczakSzybura.KatalogProcesorow.UI.csproj",
+              "RelativeDocumentMoniker": "ManczakSzybura.KatalogProcesorow.UI\\ManczakSzybura.KatalogProcesorow.UI.csproj",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.UI\\ManczakSzybura.KatalogProcesorow.UI.csproj",
+              "RelativeToolTip": "ManczakSzybura.KatalogProcesorow.UI\\ManczakSzybura.KatalogProcesorow.UI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-14T17:29:43.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CPUsController.cs",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.Web\\Controllers\\CPUsController.cs",
+              "RelativeDocumentMoniker": "ManczakSzybura.KatalogProcesorow.Web\\Controllers\\CPUsController.cs",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.Web\\Controllers\\CPUsController.cs",
+              "RelativeToolTip": "ManczakSzybura.KatalogProcesorow.Web\\Controllers\\CPUsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T17:04:03.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesor\u00F3w\\Program.cs",
+              "RelativeDocumentMoniker": "ManczakSzybura.KatalogProcesor\u00F3w\\Program.cs",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesor\u00F3w\\Program.cs",
+              "RelativeToolTip": "ManczakSzybura.KatalogProcesor\u00F3w\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T17:02:36.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.UI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ManczakSzybura.KatalogProcesorow.UI\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.UI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ManczakSzybura.KatalogProcesorow.UI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAIA7wN0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T17:02:13.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "App.config",
-              "DocumentMoniker": "C:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.UI\\App.config",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.UI\\App.config",
               "RelativeDocumentMoniker": "ManczakSzybura.KatalogProcesorow.UI\\App.config",
-              "ToolTip": "C:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.UI\\App.config",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.UI\\App.config",
               "RelativeToolTip": "ManczakSzybura.KatalogProcesorow.UI\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2026-01-14T11:26:39.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
+              "Title": "ManufacturersController.cs",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.Web\\Controllers\\ManufacturersController.cs",
+              "RelativeDocumentMoniker": "ManczakSzybura.KatalogProcesorow.Web\\Controllers\\ManufacturersController.cs",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.Web\\Controllers\\ManufacturersController.cs",
+              "RelativeToolTip": "ManczakSzybura.KatalogProcesorow.Web\\Controllers\\ManufacturersController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAQwHEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T17:22:21.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "App.config",
-              "DocumentMoniker": "C:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.Web\\App.config",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.Web\\App.config",
               "RelativeDocumentMoniker": "ManczakSzybura.KatalogProcesorow.Web\\App.config",
-              "ToolTip": "C:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.Web\\App.config",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.Web\\App.config",
               "RelativeToolTip": "ManczakSzybura.KatalogProcesorow.Web\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-01-12T11:46:27.486Z"
+              "WhenOpened": "2026-01-12T11:46:27.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ManczakSzybura.KatalogProcesorow.BL",
+              "DocumentMoniker": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.BL\\ManczakSzybura.KatalogProcesorow.BL.csproj",
+              "RelativeDocumentMoniker": "ManczakSzybura.KatalogProcesorow.BL\\ManczakSzybura.KatalogProcesorow.BL.csproj",
+              "ToolTip": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesor\u00F3w\\ManczakSzybura.KatalogProcesorow.BL\\ManczakSzybura.KatalogProcesorow.BL.csproj",
+              "RelativeToolTip": "ManczakSzybura.KatalogProcesorow.BL\\ManczakSzybura.KatalogProcesorow.BL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-14T16:52:29.181Z",
+              "EditorCaption": ""
             }
           ]
         }

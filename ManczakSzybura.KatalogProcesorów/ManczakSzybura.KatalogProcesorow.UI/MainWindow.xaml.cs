@@ -1,12 +1,12 @@
 ﻿using ManczakSzybura.KatalogProcesorow.CORE;
 using ManczakSzybura.KatalogProcesorow.Interfaces;
 using ManczakSzybura.KatalogProcesorow.UI.ViewModels;
+using Microsoft.Extensions.Configuration; // Dodaj to
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
-using static ManczakSzybura.KatalogProcesorow.DBSQL.ManufacturerDBSQL;
 
 namespace ManczakSzybura.KatalogProcesorow.UI
 {
@@ -18,12 +18,16 @@ namespace ManczakSzybura.KatalogProcesorow.UI
         public ViewModels.ManufacturerListViewModel ManufacturerLVM { get; } = new ViewModels.ManufacturerListViewModel();
         private ViewModels.ManufacturerViewModel selectedManufacturer = null;
 
-        private readonly BL.BL bl;
-        private string selectedDAO = System.Configuration.ConfigurationManager.AppSettings["DAOLibraryName"]!;
+        private readonly BL.BL _bl;
 
         public MainWindow()
         {
-            bl = new BL.BL(selectedDAO);
+            // SZYBKI FIX: Tworzymy pusty obiekt konfiguracji. 
+            // Twoja klasa BL sama wyciągnie "DAOLibraryName" z App.config przez ConfigurationManager.
+            IConfiguration config = new ConfigurationBuilder().Build();
+
+            _bl = BL.BL.GetInstance(config);
+
             InitializeComponent();
             RefreshAll();
         }
@@ -31,26 +35,24 @@ namespace ManczakSzybura.KatalogProcesorow.UI
         private void RefreshAll()
         {
             // Refresh ViewModels from Business Logic
-            ManufacturerLVM.RefreshList(bl.GetAllManufacturers().Distinct());
-            CPULVM.RefreshList(bl.GetAllCPUs());
+            ManufacturerLVM.RefreshList(_bl.GetAllManufacturers());
+            CPULVM.RefreshList(_bl.GetAllCPUs());
 
             // Update filter dropdowns
             manufacturerFilterValueComboBox.ItemsSource = GetAddresses();
 
-            // If the CPU filter is currently set to manufacturers, refresh that list too
             if (filterTypeComboBox.SelectedItem is ComboBoxItem cbi && cbi.Content.ToString() == "manufacturer")
             {
-                filterValueComboBox.ItemsSource = bl.GetAllManufacturers().Select(m => m.Name).Distinct();
+                filterValueComboBox.ItemsSource = _bl.GetAllManufacturers().Select(m => m.Name).Distinct();
             }
         }
 
         private IEnumerable<string> GetAddresses()
         {
-            return bl.GetAllManufacturers().Select(m => m.Address).Distinct();
+            return _bl.GetUniqueAddresses(); // Używamy gotowej metody z BL
         }
 
         #region Filters
-
         private void FilterTypeComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (filterValueComboBox == null) return;
@@ -62,10 +64,10 @@ namespace ManczakSzybura.KatalogProcesorow.UI
                     filterValueComboBox.ItemsSource = Enum.GetNames(typeof(CPUSocketType));
                     break;
                 case "manufacturer":
-                    filterValueComboBox.ItemsSource = bl.GetAllManufacturers().Select(m => m.Name).Distinct();
+                    filterValueComboBox.ItemsSource = _bl.GetAllManufacturersNames();
                     break;
                 case "number of cores":
-                    filterValueComboBox.ItemsSource = bl.GetAllCPUs().Select(c => c.Cores.ToString()).Distinct();
+                    filterValueComboBox.ItemsSource = _bl.GetUniqueCores();
                     break;
                 default:
                     filterValueComboBox.ItemsSource = null;
@@ -80,67 +82,60 @@ namespace ManczakSzybura.KatalogProcesorow.UI
 
             if (string.IsNullOrEmpty(filterValue))
             {
-                CPULVM.RefreshList(bl.GetAllCPUs());
+                CPULVM.RefreshList(_bl.GetAllCPUs());
                 return;
             }
 
-            var all = bl.GetAllCPUs();
             switch (selectedType)
             {
                 case "socket type":
-                    CPULVM.RefreshList(all.Where(c => c.SocketType.ToString() == filterValue));
+                    Enum.TryParse(filterValue, out CPUSocketType socket);
+                    CPULVM.RefreshList(_bl.FilterProductBySocketType(socket));
                     break;
                 case "manufacturer":
-                    CPULVM.RefreshList(all.Where(c => c.manufacturer.Name == filterValue));
+                    CPULVM.RefreshList(_bl.FilterProductByProducer(filterValue));
                     break;
                 case "number of cores":
                     int.TryParse(filterValue, out int cores);
-                    CPULVM.RefreshList(all.Where(c => c.Cores == cores));
+                    CPULVM.RefreshList(_bl.FilterProductByCores(cores));
                     break;
             }
         }
 
         private void ApplyCPUSearch(object sender, RoutedEventArgs e)
         {
-            string search = cpuSearchField.Text;
-            CPULVM.RefreshList(string.IsNullOrWhiteSpace(search)
-                ? bl.GetAllCPUs()
-                : bl.GetAllCPUs().Where(c => c.Name.Contains(search, StringComparison.OrdinalIgnoreCase)));
+            CPULVM.RefreshList(_bl.SearchCPUByName(cpuSearchField.Text));
         }
 
         private void RemoveFiltersCPU(object sender, RoutedEventArgs e)
         {
             cpuSearchField.Clear();
             filterValueComboBox.SelectedItem = null;
-            CPULVM.RefreshList(bl.GetAllCPUs());
+            CPULVM.RefreshList(_bl.GetAllCPUs());
         }
 
         private void ManufacturerApplyFilter(object sender, RoutedEventArgs e)
         {
             string address = manufacturerFilterValueComboBox.SelectedItem as string;
             ManufacturerLVM.RefreshList(string.IsNullOrEmpty(address)
-                ? bl.GetAllManufacturers()
-                : bl.GetAllManufacturers().Where(m => m.Address == address));
+                ? _bl.GetAllManufacturers()
+                : _bl.FilterProducerByAddress(address));
         }
 
         private void ApplyManufacturerSearch(object sender, RoutedEventArgs e)
         {
-            string search = manufacturerSearchField.Text;
-            ManufacturerLVM.RefreshList(string.IsNullOrWhiteSpace(search)
-                ? bl.GetAllManufacturers()
-                : bl.GetAllManufacturers().Where(m => m.Name.Contains(search, StringComparison.OrdinalIgnoreCase)));
+            ManufacturerLVM.RefreshList(_bl.SearchProducerByName(manufacturerSearchField.Text));
         }
 
         private void RemoveFiltersManufacturer(object sender, RoutedEventArgs e)
         {
             manufacturerSearchField.Clear();
             manufacturerFilterValueComboBox.SelectedItem = null;
-            ManufacturerLVM.RefreshList(bl.GetAllManufacturers());
+            ManufacturerLVM.RefreshList(_bl.GetAllManufacturers());
         }
         #endregion
 
         #region CPU Operations
-
         private void CPUList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             selectedCPU = CPUList.SelectedItem as CPUViewModel;
@@ -148,19 +143,17 @@ namespace ManczakSzybura.KatalogProcesorow.UI
 
         private void AddCPU(object sender, RoutedEventArgs e)
         {
-            var manufacturers = bl.GetAllManufacturers().Select(m => m.Name);
+            var manufacturers = _bl.GetAllManufacturersNames();
             NewCPU dialog = new NewCPU(manufacturers);
 
             if (dialog.ShowDialog() == true)
             {
                 try
                 {
-                    int newId = CPULVM.CPUs.Any() ? CPULVM.CPUs.Max(c => c.CPUID) + 1 : 1;
-                    var manufacturerObj = bl.GetAllManufacturers().First(m => m.Name == dialog.SelectedManufacturer);
+                    var manufacturerObj = _bl.GetAllManufacturers().First(m => m.Name == dialog.SelectedManufacturer);
 
                     ICPU newCpu = new CPU()
                     {
-                        Id = newId,
                         Name = dialog.CPUName,
                         Cores = dialog.Cores,
                         Threads = dialog.Threads,
@@ -169,8 +162,7 @@ namespace ManczakSzybura.KatalogProcesorow.UI
                         manufacturer = manufacturerObj
                     };
 
-                    // Using the BL method
-                    bl.CreateCPU(newCpu);
+                    _bl.CreateCPU(newCpu);
                     RefreshAll();
                 }
                 catch (Exception ex)
@@ -182,19 +174,15 @@ namespace ManczakSzybura.KatalogProcesorow.UI
 
         private void EditCPU(object sender, RoutedEventArgs e)
         {
-            if (selectedCPU == null)
-            {
-                MessageBox.Show("Please select a CPU from the list first.");
-                return;
-            }
+            if (selectedCPU == null) return;
 
-            ICPU currentCpu = bl.GetCPUById(selectedCPU.CPUID);
-            var manufacturers = bl.GetAllManufacturers().Select(m => m.Name);
+            ICPU currentCpu = _bl.GetCPUById(selectedCPU.CPUID);
+            var manufacturers = _bl.GetAllManufacturersNames();
             NewCPU dialog = new NewCPU(manufacturers, currentCpu);
 
             if (dialog.ShowDialog() == true)
             {
-                var manufacturerObj = bl.GetAllManufacturers().First(m => m.Name == dialog.SelectedManufacturer);
+                var manufacturerObj = _bl.GetAllManufacturers().First(m => m.Name == dialog.SelectedManufacturer);
 
                 currentCpu.Name = dialog.CPUName;
                 currentCpu.Cores = dialog.Cores;
@@ -203,31 +191,24 @@ namespace ManczakSzybura.KatalogProcesorow.UI
                 currentCpu.SocketType = dialog.CPUSocket;
                 currentCpu.manufacturer = manufacturerObj;
 
-                bl.UpdateCPU(currentCpu);
+                _bl.UpdateCPU(currentCpu);
                 RefreshAll();
             }
         }
 
-
         private void RemoveCPU(object sender, RoutedEventArgs e)
         {
-            if (selectedCPU == null)
+            if (selectedCPU == null) return;
+            if (MessageBox.Show($"Remove {selectedCPU.CPUName}?", "Confirm", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
-                MessageBox.Show("Please select a CPU from the list first.");
-                return;
-            }
-
-            if (MessageBox.Show($"Remove {selectedCPU.CPUName}?", "Confirm", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
-            {
-                bl.DeleteCPU(selectedCPU.CPUID);
+                _bl.DeleteCPU(selectedCPU.CPUID);
                 RefreshAll();
-                selectedCPU = null; // Reset selection
+                selectedCPU = null;
             }
         }
         #endregion
 
         #region Manufacturer Operations
-
         private void ManufacturerList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             selectedManufacturer = ManufacturerList.SelectedItem as ManufacturerViewModel;
@@ -238,29 +219,22 @@ namespace ManczakSzybura.KatalogProcesorow.UI
             NewManufacturer dialog = new NewManufacturer();
             if (dialog.ShowDialog() == true)
             {
-                int newId = ManufacturerLVM.Manufacturers.Any() ? ManufacturerLVM.Manufacturers.Max(m => m.ManufacturerId) + 1 : 1;
-
                 IManufacturer manufacturer = new Manufacturer()
                 {
-                    Id = newId,
                     Name = dialog.ManufacturerName,
                     Address = dialog.ManufacturerAddress
                 };
 
-                bl.CreateManufacturer(manufacturer);
+                _bl.CreateManufacturer(manufacturer);
                 RefreshAll();
             }
         }
 
         private void EditManufacturer(object sender, RoutedEventArgs e)
         {
-            if (selectedManufacturer == null)
-            {
-                MessageBox.Show("Please select a manufacturer from the list first.");
-                return;
-            }
+            if (selectedManufacturer == null) return;
 
-            IManufacturer current = bl.GetManufacturerById(selectedManufacturer.ManufacturerId);
+            IManufacturer current = _bl.GetManufacturerById(selectedManufacturer.ManufacturerId);
             NewManufacturer dialog = new NewManufacturer(current);
 
             if (dialog.ShowDialog() == true)
@@ -268,33 +242,21 @@ namespace ManczakSzybura.KatalogProcesorow.UI
                 current.Name = dialog.ManufacturerName;
                 current.Address = dialog.ManufacturerAddress;
 
-                bl.UpdateManufacturer(current);
+                _bl.UpdateManufacturer(current);
                 RefreshAll();
             }
         }
-
 
         private void RemoveManufacturer(object sender, RoutedEventArgs e)
         {
             if (selectedManufacturer == null) return;
-
-            if (MessageBox.Show("Removing a manufacturer may affect associated CPUs. Continue?", "Confirm", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+            if (MessageBox.Show("Remove manufacturer?", "Confirm", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
-                bl.DeleteManufacturer(selectedManufacturer.ManufacturerId);
+                _bl.DeleteManufacturer(selectedManufacturer.ManufacturerId);
                 RefreshAll();
+                selectedManufacturer = null;
             }
         }
         #endregion
-    }
-
-    public class CPU : ICPU
-    {
-        public int Cores { get; set; }
-        public int Threads { get; set; }
-        public double BaseClockGHz { get; set; }
-        public CPUSocketType SocketType { get; set; }
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public IManufacturer manufacturer { get; set; }
     }
 }

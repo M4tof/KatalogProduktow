@@ -13,7 +13,6 @@
 
 	<ItemGroup>
     <ProjectReference Include="..\ManczakSzybura.KatalogProcesorow.CORE\ManczakSzybura.KatalogProcesorow.CORE.csproj" />
-    <ProjectReference Include="..\ManczakSzybura.KatalogProcesorow.DBSQL\ManczakSzybura.KatalogProcesorow.DBSQL.csproj" />
     <ProjectReference Include="..\ManczakSzybura.KatalogProcesorow.INTERFACES\ManczakSzybura.KatalogProcesorow.INTERFACES.csproj" />
   </ItemGroup>
 

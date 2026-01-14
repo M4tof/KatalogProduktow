@@ -4,6 +4,7 @@ using System.Linq;
 using System.Globalization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration; // Wymagane
 using ManczakSzybura.KatalogProcesorow.CORE;
 using ManczakSzybura.KatalogProcesorow.Interfaces;
 
@@ -13,22 +14,20 @@ namespace ManczakSzybura.KatalogProcesorow.Web.Controllers
     {
         private readonly BL.BL _bl;
 
-        public CPUsController()
+        // ASP.NET Core automatycznie poda tutaj konfigurację z appsettings.json
+        public CPUsController(IConfiguration configuration)
         {
-            string libraryName = System.Configuration.ConfigurationManager.AppSettings["DAOLibraryName"]!;
-            _bl = BL.BL.GetInstance(libraryName);
+            _bl = BL.BL.GetInstance(configuration);
         }
 
         // GET: CPUs
         public IActionResult Index(string searchTerm, string filterByManufacturer, CPUSocketType? filterBySocket, int? filterByCores)
         {
-            // Start with the full list
             IEnumerable<ICPU> cpus = _bl.GetAllCPUs();
 
-            // Apply filters one by one to the SAME collection
             if (!string.IsNullOrEmpty(searchTerm))
             {
-                cpus = cpus.Where(c => c.Name.Contains(searchTerm, StringComparison.OrdinalIgnoreCase));
+                cpus = _bl.SearchCPUByName(searchTerm);
             }
 
             if (!string.IsNullOrEmpty(filterByManufacturer))
@@ -46,7 +45,6 @@ namespace ManczakSzybura.KatalogProcesorow.Web.Controllers
                 cpus = cpus.Where(c => c.Cores == filterByCores.Value);
             }
 
-            // Prepare dropdowns
             ViewBag.ManufacturerOptions = _bl.GetAllManufacturersNames();
             ViewBag.SocketOptions = Enum.GetValues(typeof(CPUSocketType)).Cast<CPUSocketType>();
             ViewBag.CoreOptions = _bl.GetUniqueCores();
@@ -54,7 +52,6 @@ namespace ManczakSzybura.KatalogProcesorow.Web.Controllers
             return View(cpus.ToList());
         }
 
-        // GET: CPUs/Details/5
         public IActionResult Details(int? id)
         {
             if (id == null) return NotFound();
@@ -63,7 +60,6 @@ namespace ManczakSzybura.KatalogProcesorow.Web.Controllers
             return View(cpu);
         }
 
-        // GET: CPUs/Create
         public IActionResult Create()
         {
             ViewBag.Manufacturers = _bl.GetAllManufacturers();
@@ -76,10 +72,7 @@ namespace ManczakSzybura.KatalogProcesorow.Web.Controllers
         {
             try
             {
-                int newId = _bl.GetAllCPUs().Any() ? _bl.GetAllCPUs().Max(c => c.Id) + 1 : 1;
-
                 var cpu = new Models.CPU();
-                cpu.Id = newId;
                 cpu.Name = collection["Name"];
                 cpu.Cores = int.Parse(collection["Cores"]);
                 cpu.Threads = int.Parse(collection["Threads"]);
@@ -97,7 +90,6 @@ namespace ManczakSzybura.KatalogProcesorow.Web.Controllers
             }
         }
 
-        // GET: CPUs/Edit/5
         public IActionResult Edit(int? id)
         {
             if (id == null) return NotFound();
