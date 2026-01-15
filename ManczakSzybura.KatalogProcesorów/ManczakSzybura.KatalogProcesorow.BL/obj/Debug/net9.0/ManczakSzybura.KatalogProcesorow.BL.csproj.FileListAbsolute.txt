@@ -21,10 +21,8 @@ C:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.
 C:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.BL\bin\Debug\net9.0\ManczakSzybura.KatalogProcesorow.BL.dll
 C:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.BL\bin\Debug\net9.0\ManczakSzybura.KatalogProcesorow.BL.pdb
 C:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.BL\bin\Debug\net9.0\ManczakSzybura.KatalogProcesorow.CORE.dll
-C:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.BL\bin\Debug\net9.0\ManczakSzybura.KatalogProcesorow.DBSQL.dll
 C:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.BL\bin\Debug\net9.0\ManczakSzybura.KatalogProcesorow.INTERFACES.dll
 C:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.BL\bin\Debug\net9.0\ManczakSzybura.KatalogProcesorow.CORE.pdb
-C:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.BL\bin\Debug\net9.0\ManczakSzybura.KatalogProcesorow.DBSQL.pdb
 C:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.BL\bin\Debug\net9.0\ManczakSzybura.KatalogProcesorow.INTERFACES.pdb
 C:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.BL\obj\Debug\net9.0\ManczakSzybura.KatalogProcesorow.BL.csproj.AssemblyReference.cache
 C:\PROGRAMING\KatalogProduktow\ManczakSzybura.KatalogProcesorów\ManczakSzybura.KatalogProcesorow.BL\obj\Debug\net9.0\ManczakSzybura.KatalogProcesorow.BL.GeneratedMSBuildEditorConfig.editorconfig

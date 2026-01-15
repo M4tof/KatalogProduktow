@@ -1,0 +1,11 @@
+[
+  {
+    "Id": 1,
+    "Name": "Core i7",
+    "Cores": 8,
+    "Threads": 2,
+    "BaseClockGHz": 12.2,
+    "SocketType": 1,
+    "ManufacturerId": 1
+  }
+]

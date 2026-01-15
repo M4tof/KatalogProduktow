@@ -11,8 +11,6 @@
         IManufacturer CreateNewManufacturer(IManufacturer manufacturer);
         //IProduct CreateNewProduct(IProduct product);
         ICPU CreateNewCPU(ICPU cpu);
-        void CreateCPU(ICPU cpu);
-        ICPU NewCPU();
 
         //DELETES
         void DeleteManufacturer(int manufacturerId);

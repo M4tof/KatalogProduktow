@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EPJL9qyYXOA=",
+  "dgSpecHash": "34444/iB6WI=",
   "success": true,
-  "projectFilePath": "D:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.BL\\ManczakSzybura.KatalogProcesorow.BL.csproj",
+  "projectFilePath": "C:\\PROGRAMING\\KatalogProduktow\\ManczakSzybura.KatalogProcesorów\\ManczakSzybura.KatalogProcesorow.BL\\ManczakSzybura.KatalogProcesorow.BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\krzys\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.1\\microsoft.extensions.configuration.10.0.1.nupkg.sha512",
     "C:\\Users\\krzys\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.1\\microsoft.extensions.configuration.abstractions.10.0.1.nupkg.sha512",

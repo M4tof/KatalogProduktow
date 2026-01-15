@@ -66,10 +66,6 @@ namespace ManczakSzybura.KatalogProcesorow.DAOMock1
             manufacturers.Add(manufacturer);
             return manufacturer;
         }
-        public ICPU NewCPU()
-        {
-            throw new NotImplementedException();
-        }
 
         //DELETE
         public void DeleteCPU(int cpuId)

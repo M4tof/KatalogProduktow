@@ -102,7 +102,6 @@ namespace ManczakSzybura.KatalogProcesorow.BL
 
         // --- Metody operacyjne (używają tylko interfejsu _dao) ---
 
-        public ICPU NewCpu() => _dao.NewCPU();
         public IEnumerable<ICPU> GetAllCPUs() => _dao.GetAllCPUs();
         public IEnumerable<IManufacturer> GetAllManufacturers() => _dao.GetAllManufaturers();
 
@@ -115,7 +114,6 @@ namespace ManczakSzybura.KatalogProcesorow.BL
         public IEnumerable<string> GetAllCPUsNames() => _dao.GetAllCPUs().Select(c => c.Name);
         public IEnumerable<string> GetAllManufacturersNames() => _dao.GetAllManufaturers().Select(m => m.Name);
 
-        public void CreateNewCPU(ICPU cpu) => _dao.CreateCPU(cpu);
         public void CreateCPU(ICPU cpu) => _dao.CreateNewCPU(cpu);
         public void CreateManufacturer(IManufacturer manufacturer) => _dao.CreateNewManufacturer(manufacturer);
 

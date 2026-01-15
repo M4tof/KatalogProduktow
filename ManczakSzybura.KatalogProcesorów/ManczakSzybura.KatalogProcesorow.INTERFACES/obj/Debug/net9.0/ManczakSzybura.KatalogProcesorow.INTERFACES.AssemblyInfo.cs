@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ManczakSzybura.KatalogProcesorow.INTERFACES")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b48da5eff0139cac037c60ae7438016c6d84cd35")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5335ef1fbe00d5ea712e512f1c9ca1f6b2790b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ManczakSzybura.KatalogProcesorow.INTERFACES")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ManczakSzybura.KatalogProcesorow.INTERFACES")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

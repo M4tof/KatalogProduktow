@@ -97,15 +97,6 @@ namespace ManczakSzybura.KatalogProcesorow.DBSQL
             return cpu;
         }
 
-        public void CreateCPU(ICPU cpu)
-        {
-            throw new NotImplementedException();
-        }
-        public ICPU NewCPU()
-        {
-            throw new NotImplementedException();
-        }
-
         //DELETES
         public void DeleteManufacturer(int manufacturerId)
         {
