@@ -98,8 +98,21 @@ namespace ManczakSzybura.KatalogProcesorow.Web.Controllers
         public IActionResult Delete(int? id)
         {
             if (id == null) return NotFound();
+
             var manufacturer = _bl.GetManufacturerById(id.Value);
             if (manufacturer == null) return NotFound();
+
+            // Check if any CPU is linked to this manufacturer
+            bool hasLinkedCPUs = _bl.GetAllCPUs()
+                .Any(cpu => cpu.manufacturer != null && cpu.manufacturer.Id == id.Value);
+
+            if (hasLinkedCPUs)
+            {
+                // Store error message in TempData to show it on the Index page
+                TempData["Error"] = $"Cannot delete '{manufacturer.Name}' because it is assigned to one or more CPUs.";
+                return RedirectToAction(nameof(Index));
+            }
+
             return View(manufacturer);
         }
 
@@ -107,7 +120,18 @@ namespace ManczakSzybura.KatalogProcesorow.Web.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(int id)
         {
+            // Safety check again in the POST method
+            bool hasLinkedCPUs = _bl.GetAllCPUs()
+                .Any(cpu => cpu.manufacturer != null && cpu.manufacturer.Id == id);
+
+            if (hasLinkedCPUs)
+            {
+                TempData["Error"] = "Deletion failed. CPUs are still assigned to this manufacturer.";
+                return RedirectToAction(nameof(Index));
+            }
+
             _bl.DeleteManufacturer(id);
+            TempData["Success"] = "Manufacturer deleted successfully.";
             return RedirectToAction(nameof(Index));
         }
     }

@@ -250,7 +250,22 @@ namespace ManczakSzybura.KatalogProcesorow.UI
         private void RemoveManufacturer(object sender, RoutedEventArgs e)
         {
             if (selectedManufacturer == null) return;
-            if (MessageBox.Show("Remove manufacturer?", "Confirm", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+            bool hasLinkedCPUs = _bl.GetAllCPUs().Any(cpu => cpu.manufacturer != null && cpu.manufacturer.Id == selectedManufacturer.ManufacturerId);
+
+
+            if (hasLinkedCPUs)
+            {
+                MessageBox.Show(
+                    "Cannot delete this manufacturer because there are CPUs assigned to it. " +
+                    "Please delete or reassign those CPUs first.",
+                    "Action Denied",
+                    MessageBoxButton.OK,
+                    MessageBoxImage.Warning);
+                return;
+            }
+
+
+            if (MessageBox.Show($"Are you sure you want to remove '{selectedManufacturer.ManufacturerName}'?", "Confirm Deletion", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
             {
                 _bl.DeleteManufacturer(selectedManufacturer.ManufacturerId);
                 RefreshAll();
